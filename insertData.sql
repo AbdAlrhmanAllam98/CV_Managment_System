@@ -1,0 +1,48 @@
+INSERT INTO `user` (`id`, `user_name`, `email`) VALUES
+(1, 'Clotilde Toy', 'maureen69@example.com'),
+(2, 'Lilly Spinka', 'katelin.denesik@example.com'),
+(3, 'Marlin Carroll', 'sammy12@example.net'),
+(5, 'Georgiana Kling', 'harry20@example.com'),
+(6, 'Kamren Runolfsson IV', 'lincoln19@example.com'),
+(7, 'Adrien Collier', 'kuhic.marion@example.net'),
+(8, 'Demario Hegmann', 'colleen.west@example.net'),
+(9, 'Miss Melissa Johnston IV', 'zcassin@example.com'),
+(10, 'Khalid Reilly', 'rippin.delores@example.com'),
+(11, 'Jo Auer MD', 'tlittle@example.net'),
+(12, 'Grady Bernier', 'mable.roberts@example.com'),
+(13, 'Lavada Ruecker', 'nathan.brekke@example.net'),
+(14, 'Marcelina Tremblay', 'olson.adrianna@example.net'),
+(15, 'Edythe Dibbert', 'tmurphy@example.net'),
+(16, 'Leonel Sauer', 'creynolds@example.org'),
+(17, 'Miss Tabitha Runolfsson', 'dickinson.franz@example.net'),
+(18, 'Miss Sandrine Kihn Jr.', 'simonis.mohammad@example.com'),
+(19, 'Maureen Hamill', 'retta26@example.com'),
+(20, 'Dr. Jennyfer Wisozk DDS', 'eda.borer@example.org'),
+(21, 'Kamal', 'darius.gerlach@example.org'),
+(22, 'Allameto', 'allam@gmail.com'),
+(23, 'Allam', 'allam@gmail.net'),
+(24, 'kamal', 'darius.gerlach@example.net');
+
+INSERT INTO `cv` (`id`, `cv_name`, `user_email`) VALUES
+(1, 'reprehenderit.pdf', 'mable.roberts@example.com'),
+(2, 'consequatur.pdf', 'mable.roberts@example.com'),
+(3, 'dolorum.pdf', 'creynolds@example.org'),
+(4, 'sed.pdf', 'retta26@example.com'),
+(7, 'saepe.pdf', 'zcassin@example.com'),
+(8, 'officiis.pdf', 'harry20@example.com'),
+(9, 'iste.pdf', 'mable.roberts@example.com'),
+(10, 'aut.pdf', 'colleen.west@example.net');
+
+INSERT INTO `section` (`id`, `section_title`, `cv_id`) VALUES
+(2, 'aut', 9),
+(11, 'dolorem', 8),
+(4, 'eating', 8),
+(13, 'facere', 4),
+(3, 'Header10', 4),
+(8, 'Header2', 4),
+(1, 'ipsum', 10),
+(7, 'libero', 10),
+(9, 'omnis', 8),
+(5, 'optio', 10),
+(14, 'perferendis', 9),
+(15, 'voluptas', 4);
