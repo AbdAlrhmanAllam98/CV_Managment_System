@@ -8,6 +8,6 @@ Assuming you've already installed on your machine:
 
 Database
 You should Create Database with that name => [ cvs2 ] 
-then it created from insertData.sql file(https://github.com/AbdAlrhmanAllam98/CV_Managment_System/blob/master/insertData.sql)contain dummy data.
+then it created from insertData.sql file(https://github.com/AbdAlrhmanAllam98/CV_Managment_System/blob/master/insertData.sql) contain dummy data.
 
 Test Endpoint by Postman(https://documenter.getpostman.com/view/11350377/2s83tFGWgv)
